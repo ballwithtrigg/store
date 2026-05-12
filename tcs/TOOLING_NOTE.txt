@@ -1,0 +1,5 @@
+Admin auth added via localStorage token.
+- admin-auth.js provides: guardAdminRoute, setAdminAuthState, clearAdminAuthState
+- admin.html now guards route and includes Logout button.
+- login.html sets admin token when email/password match fallback: admin@example.com / admin123
+
